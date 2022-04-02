@@ -25,11 +25,6 @@ def alterar_arquivo_input(path: str, arquivo: str):
         file.write('\nCl C O N H 0\n6-31g(d,p)\n****\nPt 0\nlanl2dz\n****\n\nPt 0\nlanl2dz')
 
 
-def transformar_executavel(arquivo: str) -> None:
-    comando = 'chmod u+x deploy.sh'
-    os.system(comando)
-
-
 if __name__ == '__main__':
     path = None
     nome = None
