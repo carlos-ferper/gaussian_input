@@ -40,6 +40,7 @@ def print_ajuda():
     # arquivos na pasta D:\\opts, com alteracao de input, com nome padrao
     python3 . path=D:\\opts change_input=1
     '''
+    print(texto_ajuda)
 
 
 if __name__ == '__main__':
